@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2{
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: sienna;
+    position: fixed;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 100px;
+}
+.linea-abajo {
+    text-decoration-line: underline;
+}
+img {
+    margin: 0 auto 0 auto;
+    display: block;
+}
+p {
+    text-align: center;
+}
+h2.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+h2.font-akaya {
+    font-family: 'Akaya Telivigala', Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+}
+.font-consideracion {
+    font-family: 'Advertencia', cursive;
+    font-size: 4em;
+}
+.font-negrita {
+    font-weight: bold;
+}
+.fuente-italica {
+    font-size: 32pt;
+    font-style: italic;
+}
+span.resaltado {
+    font-size: 2em;
+    color: limegreen;
+    font-weight: bold;
+    font-family: 'advertencia', cursive;
+}
+.enlace{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.espaciado-palabra{
+    font-size: 2em;
+    word-spacing: 1.2em;
+    line-height: 2em;
+}
+
+.espaciado-letra{
+    letter-spacing: 1em;
+    font-size: 1.5em;
+}
+
+.alineacion-izquierda{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.alineacion-derecha{
+    text-align: right;
+    font-size: 1.5em; 
+}
+
+.alineacion-centrada{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.alineacion-justificada{
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+p.indentado{
+    text-align: justify;
+    text-indent: 4em;
+    font-size: 1.5em;
+}
+.letra{
+    font-size: 4em;
+    font-weight: 900;
+}
+
+blockquote{
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+    color: lightskyblue;
+}
+
+.prueba-margenes{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background: mediumblue;
+    margin: 50px 50px;
+}
+
+.contenedor-principal{
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.mi-padding1{
+    background-color: tomato;
+    width: 200px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+    padding: 30px;
+    border: solid 3px black;
+}
+
+.mi-padding2{
+    background-color: seagreen;
+    width: 200px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+    padding: 30px;
+    border: dotted 3px black;
+}
+
+.mi-padding3{
+    background-color: yellowgreen;
+    width: 200px;
+    display: inline-block;
+    margin: 50px 50px 50px 50px;
+    padding: 30px;
+    border: double black;
+}
+
+/* akaya-telivigala-regular - latin */
+font-face {
+    font-family: 'Akaya Telivigala';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/akaya-telivigala-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/akaya-telivigala-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/akaya-telivigala-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/akaya-telivigala-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/akaya-telivigala-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/akaya-telivigala-v9-latin-regular.svg#AkayaTelivigala') format('svg'); /* Legacy iOS */
+  }

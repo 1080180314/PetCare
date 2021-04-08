@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Preguntas e inquietudes</h1>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <form action="registrar-info.php" method="get">
+        <fieldset>
+    <legend>INGRESE SU INFORMACION</legend>        
+    <br>
+    <input type="text" name="Nombre" size="40" maxlength="45"
+    placeholder="Ingrese sus nombres"><br>
+    <br>
+    <input type="text" name="Apellido" size="40" maxlength="45"
+    placeholder="Ingrese sus apellidos"><br><br>
+    Ingrese su inquietud<br>
+    <textarea name="pregunta" cols="42" rows="5"></textarea><br><br>
+    Género <br>
+    <input type="radio" name="genero" value="masculino">Masculino<br>
+    <input type="radio" name="genero" value="femenino">Femenino<br>
+    <input type="radio" name="genero" value="Indeterminado">Indeterminado<br><br>
+    Temas de interés <br>
+    <input type="checkbox" name="Interes" value="interes">Cuidados<br>
+    <input type="checkbox" name="Interes" value="interes">Alimentación<br>
+    <input type="checkbox" name="Interes" value="interes">Todo sobre gatos<br>
+    <input type="checkbox" name="Interes" value="interes">Todo sobre perros<br>
+    <input type="checkbox" name="Interes" value="interes">Otro<br><br>
+    Ciudad de residencia <br>
+    <select name="ciudad">
+        <option value="Neiva">Neiva</option>
+        <option value="Pitalito">Pitalito</option>
+        <option value="Timana">Timaná</option>
+        <option value="San Agustin">San Agustín</option>
+        <option value="Oporapa">Oporapa</option>
+        <option value="Elias">Elías</option>
+        <option value="Acevedo">Acevedo</option>
+        <option value="Gigante">Gigante</option>
+    </select><br><br>
+    <input type="submit" value="Enviar">
+    </fieldset>
+    </form>
+</body>
+</html>
