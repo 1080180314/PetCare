@@ -5,19 +5,33 @@
 h2{
     text-align: center;
 }
-.header{
+.bossheader{
     width: 100%;
-    height: 70px;
-    background-color: #29B7D3;
     position: fixed;
+    height: 60px;
+    background-color: #29B7D3;
+}
+.header{
+    max-width: 1200px;
+    min-width: 312px;
     font-size: 0.7em;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedor1{
     float: left;
+}
+.contenedor2{
+    float: right;
+    margin: 19px 0px 0px 0px;
+}
+.margen {
+    margin: 13px 0px 0px 8px;
 }
 .menu {
     float: right;
-    margin-right: 1%;
     font-family: 'Advertencia', cursive;
 }
 
@@ -25,7 +39,7 @@ h2{
     width: 100%;
     height: 100%;
     background-color: white;
-    padding-top: 70px;
+    padding-top: 65px;
 }
 .linea-abajo {
     text-decoration-line: underline;
