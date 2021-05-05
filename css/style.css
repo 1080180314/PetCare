@@ -2,23 +2,30 @@
     padding: 0px;
     margin: 0px;
 }
-h1, h2{
+h2{
     text-align: center;
 }
 .header{
     width: 100%;
-    height: 100px;
-    background-color: sienna;
+    height: 70px;
+    background-color: #29B7D3;
     position: fixed;
-    font-size: 2em;
+    font-size: 0.7em;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    float: left;
 }
+.menu {
+    float: right;
+    margin-right: 1%;
+    font-family: 'Advertencia', cursive;
+}
+
 .container{
     width: 100%;
     height: 100%;
     background-color: white;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .linea-abajo {
     text-decoration-line: underline;
