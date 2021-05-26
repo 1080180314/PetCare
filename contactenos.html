@@ -14,33 +14,36 @@
     <legend>INGRESE SU INFORMACION</legend>        
     <br>
     <input type="text" name="Nombre" size="40" maxlength="45"
-    placeholder="Ingrese sus nombres"><br>
+    placeholder="Ingrese su correo electronico"><br>
     <br>
     <input type="text" name="Apellido" size="40" maxlength="45"
-    placeholder="Ingrese sus apellidos"><br><br>
-    Ingrese su inquietud<br>
+    placeholder="Ingrese su nombre (opcional)"><br><br>
+
+    Tipo de mascota <br>
+    <select name="ciudad">
+        <option value="Neiva">Perro</option>
+        <option value="Pitalito">Gato</option>
+        <option value="Timana">Ave</option>
+        <option value="San Agustin">Reptil</option>
+        <option value="Oporapa">Roedor</option>
+        <option value="Elias">Peces</option>
+        <option value="Acevedo">Caballos</option>
+        <option value="Gigante">Otro</option>
+    </select><br><br>
+
+    Inquietudes adicionales<br>
     <textarea name="pregunta" cols="42" rows="5"></textarea><br><br>
-    Género <br>
-    <input type="radio" name="genero" value="masculino">Masculino<br>
-    <input type="radio" name="genero" value="femenino">Femenino<br>
-    <input type="radio" name="genero" value="Indeterminado">Indeterminado<br><br>
+    Modo de cancelación <br>
+    <input type="radio" name="genero" value="masculino">Moneda electrónica<br>
+    <input type="radio" name="genero" value="femenino">Pago en efectivo<br>
+    <input type="radio" name="genero" value="Indeterminado">Otro<br><br>
     Temas de interés <br>
     <input type="checkbox" name="Interes" value="interes">Cuidados<br>
-    <input type="checkbox" name="Interes" value="interes">Alimentación<br>
+    <input type="checkbox" name="Interes" value="interes">Productos<br>
     <input type="checkbox" name="Interes" value="interes">Todo sobre gatos<br>
     <input type="checkbox" name="Interes" value="interes">Todo sobre perros<br>
     <input type="checkbox" name="Interes" value="interes">Otro<br><br>
-    Ciudad de residencia <br>
-    <select name="ciudad">
-        <option value="Neiva">Neiva</option>
-        <option value="Pitalito">Pitalito</option>
-        <option value="Timana">Timaná</option>
-        <option value="San Agustin">San Agustín</option>
-        <option value="Oporapa">Oporapa</option>
-        <option value="Elias">Elías</option>
-        <option value="Acevedo">Acevedo</option>
-        <option value="Gigante">Gigante</option>
-    </select><br><br>
+
     <input type="submit" value="Enviar">
     </fieldset>
     </form>

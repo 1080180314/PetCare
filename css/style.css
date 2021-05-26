@@ -26,20 +26,21 @@ h2{
 .contenedor2{
     float: right;
     margin: 19px 0px 0px 0px;
+    font-size: 1.7em;
+    font-family: 'Advertencia', cursive;
 }
 .margen {
     margin: 13px 0px 0px 8px;
 }
-.menu {
-    float: right;
-    font-family: 'Advertencia', cursive;
+.cssensayos {
+
 }
 
 .container{
     width: 100%;
     height: 100%;
     background-color: white;
-    padding-top: 65px;
+    padding-top: 60px;
 }
 .linea-abajo {
     text-decoration-line: underline;
@@ -58,116 +59,6 @@ h2.font-akaya {
     font-family: 'Akaya Telivigala', Arial, Helvetica, sans-serif;
     font-size: 2.3em;
 }
-.font-consideracion {
-    font-family: 'Advertencia', cursive;
-    font-size: 4em;
-}
-.font-negrita {
-    font-weight: bold;
-}
-.fuente-italica {
-    font-size: 32pt;
-    font-style: italic;
-}
-span.resaltado {
-    font-size: 2em;
-    color: limegreen;
-    font-weight: bold;
-    font-family: 'advertencia', cursive;
-}
-.enlace{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 1.5em;
-}
-.espaciado-palabra{
-    font-size: 2em;
-    word-spacing: 1.2em;
-    line-height: 2em;
-}
-
-.espaciado-letra{
-    letter-spacing: 1em;
-    font-size: 1.5em;
-}
-
-.alineacion-izquierda{
-    text-align: left;
-    font-size: 1.5em;
-}
-
-.alineacion-derecha{
-    text-align: right;
-    font-size: 1.5em; 
-}
-
-.alineacion-centrada{
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.alineacion-justificada{
-    text-align: justify;
-    font-size: 1.5em;
-}
-
-p.indentado{
-    text-align: justify;
-    text-indent: 4em;
-    font-size: 1.5em;
-}
-.letra{
-    font-size: 4em;
-    font-weight: 900;
-}
-
-blockquote{
-    font-size: 1.5em;
-    text-align: center;
-    font-style: italic;
-    color: lightskyblue;
-}
-
-.prueba-margenes{
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    background: mediumblue;
-    margin: 50px 50px;
-}
-
-.contenedor-principal{
-    width: 90%;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.mi-padding1{
-    background-color: tomato;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: solid 3px black;
-}
-
-.mi-padding2{
-    background-color: seagreen;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: dotted 3px black;
-}
-
-.mi-padding3{
-    background-color: yellowgreen;
-    width: 200px;
-    display: inline-block;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
-    border: double black;
-}
 
 /* akaya-telivigala-regular - latin */
 font-face {
@@ -182,3 +73,31 @@ font-face {
          url('../fonts/akaya-telivigala-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/akaya-telivigala-v9-latin-regular.svg#AkayaTelivigala') format('svg'); /* Legacy iOS */
   }
+
+div.diseño {
+    padding: 4px;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 0;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    padding: 0px;
+    margin: 0px;
+    border: solid gray;
+}
+
+div.ensayo {
+    display: inline-block;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    padding: 0px;
+    border: solid gray;
+}
+.nombres {
+    font-style: normal;
+    font-size: 1em;
+    color: black;
+    line-height: 2em;
+}
