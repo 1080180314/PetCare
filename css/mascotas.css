@@ -1,0 +1,99 @@
+*{ 
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+}
+.header1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E2020;
+    color: lavender;
+    position: fixed;
+    font-family: cursive;
+    text-align: center;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    padding-inline-end: 10px;
+}
+li {
+    display: list-item;
+    margin-left: 50px;
+}
+.titlesmenu {
+    display: inline;
+    list-style: none;
+}
+.menus {
+    text-decoration: solid;
+    color: lavender;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding-top: 74px;
+}
+.images {
+    width: 100%;
+    margin-left: 4px;
+    margin-top: px;
+    display: inline;
+}
+.containersub {
+    width: 100%;
+    height: 100%;
+    background-color: #283747;
+    padding: 35px;
+    text-align: center;
+    color:#BDC3C7;
+}
+.font-akaya {
+    font-family: 'Akaya Telivigala', Arial, Helvetica, sans-serif;
+}
+h3.font-oswald {
+    font-family: 'Oswald', sans-serif;
+    color: #2D3133;
+    font-size: 1.6em;
+}
+.productscontainer {
+    width: 100%;
+}
+.product {
+    border: solid #C9CFD3 2px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 5px 3px;
+    text-align: center;
+    max-width: 25%;
+    padding: 4px;
+}
+.titleproduct {
+    max-width: 100%;
+    display: inline-block;
+}
+.imgproduct {
+    max-width: 100%;
+}
+span.resaltado {
+    color: #5f5fff;
+    float: right;
+}
+.precio {
+    float: right;
+    margin-right: 14px;
+    margin-bottom: 4px;
+}
+.enlace {
+    margin-left: 82px;
+    max-width: 100%;
+    text-decoration: solid;
+    color: #5f5fff;
+}
